@@ -2,6 +2,18 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Oswald', sans-serif;
 }
+#menu-section {
+    height: 150px;
+}
+.menu-list {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10ox;
+    color: #3C3C3C;
+    float:right;
+}
 h1 {
     font-size: 50px;
 }
@@ -19,6 +31,7 @@ h1 {
 }
 section {
     height: 500px;
+    overflow: hidden;
 }
 .link-btn {
     text-decoration: none;
@@ -51,7 +64,7 @@ section {
 
   }
   .work{
-      
+      text-align: center;
   }
   
   .div-two {
@@ -66,6 +79,10 @@ section {
   }
   #work-inq {  
     background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    margin: 150px;
+    background-position: inherit;
   }
   .div-three {
       width: 30%;
@@ -73,3 +90,11 @@ section {
       margin-left: 10%;
       padding-left: 10%;
   }
+footer {
+    text-align: center;
+    margin-left: 5%;
+    height: 200px;
+}
+footer img {
+    width: 2%;
+}
